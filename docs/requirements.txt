@@ -1,0 +1,7 @@
+sphinx==5.3.0
+recommonmark
+sphinxjp.themes.basicstrap
+sphinxcontrib-googleanalytics
+cloud_sptheme
+Jinja2<3.1
+sphinx_rtd_theme==1.1.1
