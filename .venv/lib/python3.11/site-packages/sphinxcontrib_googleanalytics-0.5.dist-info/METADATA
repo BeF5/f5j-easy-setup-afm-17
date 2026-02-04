@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: sphinxcontrib-googleanalytics
+Version: 0.5
+Summary: Sphinx extension googleanalytics
+Author-email: Domen Kozar <domen@dev.si>
+Maintainer-email: Jelmer Vernooĳ <jelmer@jelmer.uk>
+License-Expression: BSD-3-Clause
+Project-URL: Homepage, https://github.com/sphinx-contrib/googleanalytics
+Project-URL: Download, http://pypi.python.org/pypi/sphinxcontrib-googleanalytics
+Project-URL: Repository, https://github.com/sphinx-contrib/googleanalytics
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Sphinx>=0.6
+Dynamic: license-file
+
+.. -*- restructuredtext -*-
+
+===========================================
+Google Analytics extension for Sphinx
+===========================================
+
+:author: Domen Kožar <domen@dev.si>
+
+
+About
+=====
+
+This extensions allows you to track generated html files
+with Google Analytics web service.
+
+
+Installing from sphinx-contrib checkout
+---------------------------------------
+
+Checkout googleanalytics sphinx extension::
+
+  $ git clone https://github.com/sphinx-contrib/googleanalytics
+
+Change into the googleanalytics directory::
+
+  $ cd googleanalytics
+
+Install the module::
+
+  $ python setup.py install
+
+
+Enabling the extension in Sphinx_
+---------------------------------
+
+Just add ``sphinxcontrib.googleanalytics`` to the list of extensions in the ``conf.py``
+file. For example::
+
+    extensions = ['sphinxcontrib.googleanalytics']
+
+
+Configuration
+-------------
+
+For now one optional configuration is added to Sphinx_. It can be set in
+``conf.py`` file:
+
+``googleanalytics_id`` <string>:
+	UA id for your site, example::
+		googleanalytics_id = 'UA-123-123-123'
+
+``googleanalytics_enabled`` <bool>:
+	True by default, use it to turn off tracking.
+
+
+.. Links:
+.. _gnuplot: http://www.gnuplot.info/
+.. _Sphinx: http://sphinx.pocoo.org/
+
