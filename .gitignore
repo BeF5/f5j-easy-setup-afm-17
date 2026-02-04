@@ -1,2 +1,2 @@
-*/_build
-.venv
+*/_build/
+.venv/
