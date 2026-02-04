@@ -1,4 +1,4 @@
-.. F5 AFM セットアップガイド documentation master file, created by F5 Japan in 2020.
+.. F5 AFM セットアップガイド documentation master file, created by F5 Japan in 2026.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
