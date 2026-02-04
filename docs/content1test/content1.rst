@@ -9,4 +9,4 @@ content1test
    :caption: 目次:
    :glob:
 
-   module**/module**
+   *
