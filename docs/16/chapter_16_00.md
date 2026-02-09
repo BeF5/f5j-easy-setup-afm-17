@@ -12,9 +12,4 @@ BIG-IPシリーズ製品ラインナップにおいては、ソフトウェア�
 - [F5 Tech Depot：エンジニア向け製品関連情報サイト](http://www.f5networks.co.jp/depot/)
 - [AskF5：ナレッジベース総合サイト（英語）](http://support.f5.com/kb/en-us.html)
 - [DevCentral：F5ユーザコミュニティサイト（英語：アカウント登録が必要です）](https://devcentral.f5.com/)
-
-```{toctree}
-:maxdepth: 1
-:glob:
-module01/**
-```
+- [Contributors](https://github.com/BeF5/f5j-easy-setup-afm-17/graphs/contributors)

@@ -6,3 +6,4 @@ cloud_sptheme
 Jinja2<3.1
 sphinx_rtd_theme==1.1.1
 myst-parser
+sphinx-contributors

@@ -2,7 +2,7 @@
 
 - あるテナント用として、Route Domainを一つ作ります(RD1)。
 
-- このテナントは2つのサーバリソースプールを保持しており、これらをインターネットからのネットワーク攻撃から守りたい、という要件があります。
+- このテナントは2つのサーバリソースプールを保持しており、これらをインターネットからのネットワーク攻撃から守りたいという要件があります。
 
 - Web poolは、HTTPとHTTPSを提供するサーバ群です。
 
@@ -12,6 +12,6 @@
 
 - wild-poolにはもう一つの管理用としてWebminが動作していますが、こちらはある特定のIPアドレス(管理者のIPアドレスであると想定)からのアクセスのみ許可する設定とします。
 
-- Global、Route Domain, Virtual Serverで取得したログは全て、図中のSyslogサーバへ送ることとします。
+- Global、Route Domain、Virtual Serverで取得したログは全て、図中のSyslogサーバへ送ることとします。
 
-以降、Global, Route Domain，Virtual Serverの各ポリシーについて説明します。
+以降、Global、Route Domain、Virtual Serverの各ポリシーについて説明します。
