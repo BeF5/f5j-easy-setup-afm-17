@@ -12,6 +12,6 @@
 
 - wild-poolにはもう一つの管理用としてWebminが動作していますが、こちらはある特定のIPアドレス(管理者のIPアドレスであると想定)からのアクセスのみ許可する設定とします。
 
-- Global、Route Domain、Virtual Serverで取得したログは全て、図中のSyslogサーバへ送ることとします。
+- Global、Route Domain、Virtual Serverで取得したログはすべて、図中のSyslogサーバへ送ることとします。
 
 以降、Global、Route Domain、Virtual Serverの各ポリシーについて説明します。
