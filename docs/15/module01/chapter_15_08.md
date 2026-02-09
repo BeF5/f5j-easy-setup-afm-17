@@ -5,6 +5,7 @@ Active機：bigXXX.f5jp.localにのみに行った設定を、Standby機：bigYY
 (1) 「Device Management」→「Overview」を選択します。
 
 Active機(BigXXX.f5jp.local)を選択し、「Sync」ボタンを押すことで、コンフィグ同期が行われます。
+
 ![alt text](image-39.png)
 
 (2) しばらく待つと、コンフィグ同期が完了し、各ステータスがグリーンになります。

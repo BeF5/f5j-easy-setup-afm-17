@@ -9,7 +9,7 @@ ExternalやInternal VLANを利用することも可能ですが、HA専用のVLA
 
 よって、本構成においては、HA VLANを追加しています。
 
-PEOLDで利用するIPアドレス(ホストアドレス):
+**PEOLDで利用するIPアドレス(ホストアドレス)**
 ![alt text](image-1.png)
 
 【※注※】：このマークのところでご利用頂く値です。

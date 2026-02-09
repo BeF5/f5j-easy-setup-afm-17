@@ -9,7 +9,8 @@
 
 ![alt text](image-1.png)
 
-## Logging ProfileでIP Intelligenceを有効化 IPインテリジェンスのログ出力を行うには、Logging Profileでの指定も必要です。
+## Logging ProfileでIP Intelligenceを有効化
+IPインテリジェンスのログ出力を行うには、Logging Profileでの指定も必要です。
 
 (1) 「Security」→「Event Logs」→「Logging Profiles」で表示された作成済みの「Logging-profile」をクリックして開きます。以下のように設定します。
 ![alt text](image-2.png)
